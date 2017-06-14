@@ -1,0 +1,48 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body {
+  width: 60vw;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.site-header {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: 4px double orange;
+
+  .site-title {
+    font-size: 40px;
+    font-family: 'Pangolin', cursive;
+  }
+  .description {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+}
+
+.home {
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+a:link {
+}
+a:visited {
+}
+a:focus {
+}
+a:hover {
+}
+a:active {
+}
+a.site-title {
+  text-decoration: none;
+}
